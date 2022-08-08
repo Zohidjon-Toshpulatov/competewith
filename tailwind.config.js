@@ -9,6 +9,11 @@ module.exports = {
       },
       backgroundImage: {
         'cards': "url('./assets/bg-primary.png')",
+        'm-cards': "url('./assets/m-cards.png')",
+        'm-num-cards': "url('./assets/m-bg-card.png')",
+      },
+      screens: {
+        '1.4k': '1400px'
       }
     },
   },
