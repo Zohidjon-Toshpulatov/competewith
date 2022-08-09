@@ -867,6 +867,10 @@ video {
   max-width: 100%;
 }
 
+.max-w-xs {
+  max-width: 20rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1238,6 +1242,18 @@ video {
     width: 50%;
   }
 
+  .md\:max-w-\[706px\] {
+    max-width: 706px;
+  }
+
+  .md\:max-w-sm {
+    max-width: 24rem;
+  }
+
+  .md\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1383,6 +1399,10 @@ video {
 
   .lg\:max-w-full {
     max-width: 100%;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
   }
 
   .lg\:flex-row {
