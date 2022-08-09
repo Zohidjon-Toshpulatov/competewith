@@ -10,12 +10,41 @@ addEventListener('click', () => {
     }
 });
 
-const swiper = new Swiper(".mySwiper", {
+const swiper1 = new Swiper(".swiper1", {
     slidesPerView: 4,
     spaceBetween: 30,
-    freeMode: true,
+    // freeMode: true,
     pagination: {
         el: ".swiper-pagination",
+        clickable: true,
+        type: 'bullets',
+    },
+    breakpoints: {
+        "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        "@1.00": {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        "@1.50": {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
+    },
+});
+
+const swiper2 = new Swiper(".swiper2", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination2",
+        type: 'bullets',
         clickable: true,
     },
     breakpoints: {
