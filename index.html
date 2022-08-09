@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compete At Yourself</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -55,7 +56,7 @@
     </section>
     <div class="w-full">
         <div class="max-w-[1400px] mx-auto lg:px-[100px] pt-[26px] pb-3  lg:pt-14">
-            <div class="flex flex-col lg:flex-row w-full">
+            <div class="flex flex-col md:flex-row w-full">
                 <div class="lg:w-[45%] lg:pr-[49px] lg:pt-[53px]">
                     <h1
                         class="text-cus-black font-semibold text-center text-4xl lg:text-left  lg:text-[52px] lg:leading-[64px] mb-3.5">
@@ -68,7 +69,7 @@
                         </span>
                     </h1>
 
-                    <div class="flex lg:hidden gap-x-4 justify-center relative mt-6 mb-14">
+                    <div class="flex md:hidden gap-x-4 justify-center relative mt-6 mb-14">
                         <img src="./assets/start-img-1.png" alt="start-image-1"
                             class="block max-w-[100px] lg:max-w-[200px] w-full h-[252px] lg:h-[506px]" />
                         <div class="max-w-[100px] w-full lg:w-[200px] h-[252px] lg:h-[506px] relative">
@@ -78,7 +79,7 @@
                         <img src="./assets/start-img-3.png" alt="start-image-3"
                             class="block max-w-[100px] lg:max-w-[200px] w-full h-[252px] lg:h-[506px]" />
                     </div>
-                    <p class="lg:text-xl mb-5 px-8 lg:px-0 text-justify">
+                    <p class="lg:text-xl mb-5 px-8 lg:px-0 lg:text-justify max-w-[400px] lg:max-w-full">
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elitLorem ipsum dolor sit amet,
                         consectetur adipiscing elit
@@ -92,7 +93,7 @@
                         </button>
                     </form>
                 </div>
-                <div class="hidden lg:w-[55%] lg:flex gap-x-4 lg:gap-x-8 justify-center relative">
+                <div class="hidden md:w-[55%] md:flex gap-x-4 lg:gap-x-8 justify-center relative">
                     <img src="./assets/start-img-1.png" alt="start-image-1"
                         class="block max-w-[100px] lg:max-w-[200px] w-full h-[252px] lg:h-[506px]" />
                     <div class="max-w-[100px] w-full lg:max-w-[200px] h-[252px] lg:h-[506px] relative">
@@ -104,9 +105,9 @@
                 </div>
             </div>
         </div>
-        <section class="bg-m-cards lg:bg-cards bg-no-repeat bg-cover">
+        <section class="bg-m-cards lg:bg-cards bg-no-repeat bg-cover pt-8 lg:pt-0">
             <div class="max-w-[1400px] mx-auto px-8 lg:px-[100px] pt-28 lg:pt-[166px] pb-7">
-                <div class="mb-6">
+                <div class="mb-6 md:w-1/2 mx-auto">
                     <h1 class="text-white font-bold text-3xl lg:text-4xl mb-3">
                         LoremIpsem Lorem
                     </h1>
@@ -114,71 +115,164 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum
                     </p>
                 </div>
-                <div class="cards flex flex-col lg:flex-row gap-x-9">
-                    <div class="card mx-auto2">
-                        <img src="./assets/2ndary-icon.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
-                        <h3 class="text-lg font-bold mb-4">
-                            Lorem ipsem lorem ipsem lorem
-                        </h3>
-                        <p class="text-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-                            consectetur adipiscing elit
-                        </p>
-                        <p class="text-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-                            consectetur adipiscing elit Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur
-                            adipiscing elit
-                        </p>
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="./assets/2ndary-icon.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
+                                <h3 class="text-lg font-bold mb-4">
+                                    Lorem ipsem lorem ipsem lorem
+                                </h3>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </p>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="./assets/icon-primary.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
+                                <h3 class="text-lg font-bold mb-4">
+                                    Lorem ipsem lorem ipsem lorem
+                                </h3>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </p>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="./assets/2ndary-icon.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
+                                <h3 class="text-lg font-bold mb-4">
+                                    Lorem ipsem lorem ipsem lorem
+                                </h3>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </p>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="./assets/icon-primary.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
+                                <h3 class="text-lg font-bold mb-4">
+                                    Lorem ipsem lorem ipsem lorem
+                                </h3>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </p>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="./assets/2ndary-icon.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
+                                <h3 class="text-lg font-bold mb-4">
+                                    Lorem ipsem lorem ipsem lorem
+                                </h3>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </p>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="./assets/icon-primary.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
+                                <h3 class="text-lg font-bold mb-4">
+                                    Lorem ipsem lorem ipsem lorem
+                                </h3>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </p>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="./assets/2ndary-icon.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
+                                <h3 class="text-lg font-bold mb-4">
+                                    Lorem ipsem lorem ipsem lorem
+                                </h3>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </p>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="./assets/icon-primary.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
+                                <h3 class="text-lg font-bold mb-4">
+                                    Lorem ipsem lorem ipsem lorem
+                                </h3>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </p>
+                                <p class="text-xs">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card hidden lg:block">
-                        <img src="./assets/icon-primary.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
-                        <h3 class="text-lg font-bold mb-4">
-                            Lorem ipsem lorem ipsem lorem
-                        </h3>
-                        <p class="text-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-                            consectetur adipiscing elit
-                        </p>
-                        <p class="text-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-                            consectetur adipiscing elit Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur
-                            adipiscing elit
-                        </p>
-                    </div>
-                    <div class="card hidden lg:block">
-                        <img src="./assets/2ndary-icon.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
-                        <h3 class="text-lg font-bold mb-4">
-                            Lorem ipsem lorem ipsem lorem
-                        </h3>
-                        <p class="text-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-                            consectetur adipiscing elit
-                        </p>
-                        <p class="text-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-                            consectetur adipiscing elit Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur
-                            adipiscing elit
-                        </p>
-                    </div>
-                    <div class="card hidden lg:block">
-                        <img src="./assets/icon-primary.png" alt="img-card" class="mb-8 max-w-[58px] w-full" />
-                        <h3 class="text-lg font-bold mb-4">
-                            Lorem ipsem lorem ipsem lorem
-                        </h3>
-                        <p class="text-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-                            consectetur adipiscing elit
-                        </p>
-                        <p class="text-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-                            consectetur adipiscing elit Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur
-                            adipiscing elit
-                        </p>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -190,38 +284,63 @@
                 <p class="text-lg leading-0 text-cus-black">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum
                 </p>
-                <div class="flex flex-col lg:flex-row gap-x-6 gap-y-6 mt-[52px] lg:mt-16">
-                    <div class="card-num">
-                        <div
-                            class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
-                            1
+                <div class="swiper mySwiper mt-[52px] lg:mt-16">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card-num">
+                                <div
+                                    class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
+                                    1
+                                </div>
+                                <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem
+                                    ipsum</h5>
+                                <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
+                            </div>
                         </div>
-                        <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem ipsum</h5>
-                        <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                    <div class="card-num">
-                        <div
-                            class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
-                            1
+                        <div class="swiper-slide">
+                            <div class="card-num">
+                                <div
+                                    class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
+                                    2
+                                </div>
+                                <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem
+                                    ipsum</h5>
+                                <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
+                            </div>
                         </div>
-                        <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem ipsum</h5>
-                        <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                    <div class="card-num">
-                        <div
-                            class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
-                            1
+                        <div class="swiper-slide">
+                            <div class="card-num">
+                                <div
+                                    class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
+                                    3
+                                </div>
+                                <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem
+                                    ipsum</h5>
+                                <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
+                            </div>
                         </div>
-                        <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem ipsum</h5>
-                        <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                    <div class="card-num">
-                        <div
-                            class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
-                            1
+                        <div class="swiper-slide">
+                            <div class="card-num">
+                                <div
+                                    class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
+                                    4
+                                </div>
+                                <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem
+                                    ipsum</h5>
+                                <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
+                            </div>
                         </div>
-                        <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem ipsum</h5>
-                        <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
+                        <div class="swiper-slide">
+                            <div class="card-num">
+                                <div
+                                    class="rounded bg-secondary max-w-[58px] w-full max-h-[58px] h-full pt-2 mx-auto text-cus-black text-[26px] font-semibold">
+                                    5
+                                </div>
+                                <h5 class="text-cus-black text-[26px] leading-[39px] font-semibold mt-[34px]">Lorem
+                                    ipsum</h5>
+                                <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button class="btn-create">
@@ -293,6 +412,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 </body>
 
